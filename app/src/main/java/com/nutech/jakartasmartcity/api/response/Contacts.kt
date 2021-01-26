@@ -10,7 +10,7 @@ import java.io.Serializable
 
 data class Contacts(
     @PrimaryKey(autoGenerate = true)
-//    var id: Int? = null,
+    var id: Int? = 0,
     val gender: String?,
     val name: Name?,
     val location: Location?,
@@ -18,6 +18,5 @@ data class Contacts(
     val dob: Dob?,
     val phone: String?,
     val cell: String?,
-    val id: Id?,
     val picture: Picture?
 ) : Serializable

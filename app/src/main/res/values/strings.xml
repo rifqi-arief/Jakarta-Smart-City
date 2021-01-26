@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Jakarta Smart City</string>
+    <string name="tambah_kontak">Tambah Kontak</string>
+    <string name="kontak">Kontak</string>
+    <string name="detail_kontak">Detail Kontak</string>
+    <string name="empty">-</string>
 </resources>

@@ -13,7 +13,7 @@ import com.nutech.jakartasmartcity.api.response.Contacts
 
 abstract class ContactDatabase : RoomDatabase() {
 
-    abstract fun    getContactDao():ContactDao
+    abstract fun getContactDao():ContactDao
 
     companion object{
         @Volatile
